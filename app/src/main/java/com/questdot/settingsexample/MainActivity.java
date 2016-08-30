@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             mainLayout.setBackgroundColor(Color.parseColor("#ffffff"));
         }
 
-        String notebookTitle = sharedPreferences.getString("title","hehee");
+        String notebookTitle = sharedPreferences.getString("title",null);
 
         setTitle(notebookTitle);
 
